@@ -1,3 +1,9 @@
+macro_dd_email: macro_dd_email{
+compatible = "zmk,behavior-macro";
+label = "macro_dd_email";
+#binding-cells = <0>;
+bindings = <&kp S>, <&kp E>, <&kp B>, <&kp A>, <&kp S>, <&kp T>, <&kp I>, <&kp A>, <&kp N>, <&kp DOT>, <&kp O>, <&kp R>, <&kp T>, <&kp E>, <&kp G>, <&kp A>, <&kp T>, <&kp O>, <&kp R>, <&kp R>, <&kp E>, <&kp S>, <&kp AT_SIGN>, <&kp D>, <&kp A>, <&kp T>, <&kp A>, <&kp D>, <&kp O>, <&kp G>, <&kp H>, <&kp Q>, <&kp DOT>, <&kp C>, <&kp O>, <&kp M>;
+};
 macro_email: macro_email{
 compatible = "zmk,behavior-macro";
 label = "macro_email";
