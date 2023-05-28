@@ -1,3 +1,39 @@
+macro_macro_tilde_n: macro_macro_tilde_n{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_tilde_n";
+#binding-cells = <0>;
+bindings = <&mt LEFT_ALT N>, <&kp N>;
+};
+macro_tilde_u: macro_tilde_u{
+compatible = "zmk,behavior-macro";
+label = "macro_tilde_u";
+#binding-cells = <0>;
+bindings = <&mt LEFT_ALT E>, <&kp U>;
+};
+macro_tilde_o: macro_tilde_o{
+compatible = "zmk,behavior-macro";
+label = "macro_tilde_o";
+#binding-cells = <0>;
+bindings = <&mt LEFT_ALT E>, <&kp O>;
+};
+macro_tilde_i: macro_tilde_i{
+compatible = "zmk,behavior-macro";
+label = "macro_tilde_i";
+#binding-cells = <0>;
+bindings = <&mt LEFT_ALT E>, <&kp I>;
+};
+macro_tilde_a: macro_tilde_a{
+compatible = "zmk,behavior-macro";
+label = "macro_tilde_a";
+#binding-cells = <0>;
+bindings = <&mt LEFT_SHIFT E>, <&kp A>;
+};
+macro_tilde_e: macro_tilde_e{
+compatible = "zmk,behavior-macro";
+label = "macro_tilde_e";
+#binding-cells = <0>;
+bindings = <&mt LEFT_SHIFT E>, <&kp E>;
+};
 macro_dd_email: macro_dd_email{
 compatible = "zmk,behavior-macro";
 label = "macro_dd_email";
