@@ -6,11 +6,7 @@
  */
 
 
-/* THIS FILE WAS GENERATED!
- *
- * This file was generated automatically. You may or may not want to
- * edit it directly.
- */
+/* ~~THIS FILE WAS GENERATED!~~ UNTIL I TOOK OVER! */
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
