@@ -86,11 +86,11 @@
 
     layer_training {
       bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                                                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                                                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans          &kp LEFT_COMMAND  &kp LEFT_ALT   &none   &none  &kp RIGHT_ALT  &kp RIGHT_COMMAND          &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans          &trans            &trans     &kp LCTRL  &trans  &trans      &kp RCTRL             &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                  &trans            &trans        &trans                         &trans             &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+                 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                &trans  &trans  &trans  &trans  &trans  &trans                  &trans
+ &rgb_ug RGB_MEFS_CMD 5  &trans  &trans  &trans  &trans  &trans  &trans                                                                &trans  &trans  &trans  &trans  &trans  &trans                  &trans
+ &rgb_ug RGB_MEFS_CMD 5  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &none  &none  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans                  &trans
+ &rgb_ug RGB_MEFS_CMD 5  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &none  &none  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &rgb_ug RGB_MEFS_CMD 5
+ &rgb_ug RGB_MEFS_CMD 5  &trans  &trans  &trans  &trans                  &trans  &trans  &trans                &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &rgb_ug RGB_MEFS_CMD 5
       >;
     };
   };
