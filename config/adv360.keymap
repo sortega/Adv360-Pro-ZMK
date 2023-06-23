@@ -38,14 +38,6 @@
         global-quick-tap;
         bindings = <&kp>, <&kp>;
     };
-
-    fn_td: fn_tap_dance {
-        compatible = "zmk,behavior-tap-dance";
-        label = "FN_TAP_DANCE";
-        #binding-cells = <0>;
-        tapping-term-ms = <200>;
-        bindings = <&mo 2>, <&sl 2>;
-    };
   };
 
   keymap {
@@ -58,7 +50,7 @@
    &kp TAB       &kp Q       &kp W        &kp E       &kp R   &kp T   &kp LEFT                                                                                                &kp UP   &kp Y       &kp U        &kp I       &kp O           &kp P   &kp BSLH
    &kp ESC  &hm LGUI A  &hm LALT S  &hm LSHFT D  &hm LCTL F   &kp G  &kp RIGHT            &kp TAB     &kp ESC   &none   &none  &kp RIGHT_ALT  &kp RIGHT_COMMAND             &kp DOWN   &kp H  &hm RCTL J  &hm RSHFT K  &hm LALT L   &hm RGUI SEMI    &kp SQT
  &kp LSHFT       &kp Z       &kp X        &kp C       &kp V   &kp B                &none    &none  &caps_word   &none   &none      &kp RCTRL              &none      &none             &kp N       &kp M    &kp COMMA     &kp DOT        &kp FSLH  &kp RSHFT
-    &fn_td   &kp GRAVE      &tog 4     &kp HOME     &kp END                     &kp BSPC  &kp DEL      &fn_td                         &fn_td          &kp ENTER  &kp SPACE                     &kp PG_UP    &kp PG_DN    &kp LBKT        &kp RBKT     &fn_td
+     &mo 2   &kp GRAVE      &tog 4     &kp HOME     &kp END                     &kp BSPC  &kp DEL       &mo 2                          &mo 2          &kp ENTER  &kp SPACE                     &kp PG_UP    &kp PG_DN    &kp LBKT        &kp RBKT      &mo 2
       >;
     };
 
